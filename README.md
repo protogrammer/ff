@@ -16,3 +16,17 @@ for (let i = 0; i === 0 || !isOne(pow(a, i)); i++) {
     console.log("a^" + i + ": " + pow(a, i))
 }
 ```
+
+Output:
+```
+F: residue classes mod a^2 + a + 2
+0: 0
+a^0: 1
+a^1: a
+a^2: 2a + 1
+a^3: 2a + 2
+a^4: 2
+a^5: 2a
+a^6: a + 2
+a^7: a + 1
+```
